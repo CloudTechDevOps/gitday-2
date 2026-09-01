@@ -5,7 +5,7 @@ user_input = input("Enter a number: ")
 number = int(user_input)
 
 # Check if the number is divisible by 6
-if number % 6 == 0:
+if number % 4 == 0:
     print(f"{number} is divisible by 6.")
 else:
     print(f"{number} is not divisible by 6.")
